@@ -1,0 +1,27 @@
+<fieldset class="field-box-vote">
+    <h4 class="vote-point">Points</h4> 
+        <div class="field-box-point">
+            <a class="" href="{{ article.link }}">  
+        <h3 class="title"> {{ article.title }} </h3><br> 
+        <h5 class="title-link"> {{ article.domain() }} </h5>
+             </a>
+           <br>
+           <h2 class="vote-num"> {{ article.votes }} </h2>
+           <br>
+        
+           <div class="vote-up">
+                    <a href (click) = "voteUp()">
+                        <i class="fa fa-thumbs-up">
+                               upvote
+                         </i>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href (click) = "voteDown()">
+                        <i class="fa fa-thumbs-down">
+                        downvote
+                    </i>
+                    </a>
+               
+            </div>
+        </div>
+</fieldset>

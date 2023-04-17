@@ -1,0 +1,39 @@
+.button1 {
+  background-color: #09800d;
+  justify-self: right;
+  float: right;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .field-box-add {
+    position: center;
+    width: 400px;
+    background-color: #c2bbbd;
+    border: 3px solid rgb(58, 54, 59);
+  }
+  
+  legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+  }
+  
+  input {
+    margin: 5px;
+  }
+
+  .box {
+    background-color: lightgrey;
+    width: 500px;
+    padding: 50px;
+    margin: 20px;
+  }
