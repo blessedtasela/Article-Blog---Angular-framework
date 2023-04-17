@@ -20,4 +20,7 @@ data would be lost
 
 I created 3 testing objects that is stored in the code
 
+I used CSS to format the texts and objects
+
 Thank you for reading through, my angular journey continues. More improvements to come!
+
